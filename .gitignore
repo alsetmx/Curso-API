@@ -1,0 +1,65 @@
+## .NET Core
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+*.vscode/
+*.dbmdl
+*.log
+*.pdb
+*.cache
+*.ide
+*.ncrunch*
+*.localhistory/
+*.DS_Store
+*.swp
+*.sln.ide
+*.orig
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# App settings files
+appsettings.json
+
+# Publish outputs
+publish/
+*.publish.xml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code
+.history/
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.userprefs
+
+# DotCover
+*.dotCover
+
+# Azure Pipelines
+.azure-pipelines/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Dotnet watch
+**/node_modules/
+**/bower_components/
