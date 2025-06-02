@@ -404,3 +404,13 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#appsettings.json
+# Uncomment if you want to ignore appsettings.json files
+# but be aware that this file may contain sensitive information
+# such as connection strings, API keys, etc.
+#appsettings.Development.json
+appsettings.*json  
+
+
+
