@@ -6,3 +6,5 @@ Accept: application/json
 ###
 GET {{DemoApi_HostAddress}}/weatherforecast/5
 ###
+
+Get {{DemoApi_HostAddress}}/weatherforecast/
