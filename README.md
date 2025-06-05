@@ -9,7 +9,7 @@ Clase 2: [Cómo conectar API a SQL Azure](https://www.youtube.com/watch?v=OCTN4X
 
 O podemos hacerlo mucho más simple, aquí tienes la lista de reproducción.
 
-[![Lista de reproducción](/assets/playlist.jpg)](https://www.youtube.com/watch?v=OCTN4XgBf6I&list=PLPQJK9oeCXTcPL7sN1xNUDAcIcrSzcN08)
+[![Lista de reproducción](/assets/playlist.png)](https://www.youtube.com/watch?v=OCTN4XgBf6I&list=PLPQJK9oeCXTcPL7sN1xNUDAcIcrSzcN08)
 
 ## Consideraciones para cada clase
 
