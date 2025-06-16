@@ -28,6 +28,7 @@ app.UseHttpsRedirection();
 
 async Task<List<Contacto>> GetContactosAsync(DataContext context) => await context.Contactos.ToListAsync();
 
+
 //Comentario nuevo
 app.MapGet("/contactos", async (DataContext context) =>
 {
