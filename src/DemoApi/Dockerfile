@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
-WORKDIR /src/DemoApi
+WORKDIR /src
+RUN ls -a
 COPY DemoApi.csproj .
 RUN dotnet restore
 COPY . .
