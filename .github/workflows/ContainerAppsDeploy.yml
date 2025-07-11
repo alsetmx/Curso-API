@@ -8,6 +8,9 @@ jobs:
   build: 
     name: Deploy a container app service 
     runs-on: ubuntu-latest 
+    defaults:
+      run:
+        working-directory: src/DemoApi
     steps: 
       - name: Check out the repo 
         uses: actions/checkout@v3 
@@ -29,7 +32,7 @@ jobs:
           
       - name: Build Docker image 
         run: | 
-         docker build --platform linux --tag marcelamq/demo-api:latest -f src/DemoApi/Dockerfile .
+         docker build --platform linux --tag marcelamq/demo-api:latest .
       - name: Publish Docker image
         run: |
           docker push marcelamq/demo-api:latest
