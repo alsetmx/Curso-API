@@ -38,6 +38,4 @@ jobs:
           docker push marcelamq/demo-api:latest
       - name: Deploy container App
         run: |
-          az containerapp up --name api-container-app --image marcelamq/demo-api:latest --resource-group curso-api-rg --environment managedEnvironment-cursoapirg-a9ae --ingress external --target-port 8080
-
- 
+          az containerapp up --name api-container-app --image marcelamq/demo-api:latest --resource-group curso-api-rg --environment api-services-env --ingress external --target-port 8080
